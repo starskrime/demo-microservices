@@ -1,0 +1,1 @@
+docker run -d --name=mysqldb01 --restart on-failure --env MYSQL_ROOT_PASSWORD=root --env MYSQL_DATABASE=microservice-app --env MYSQL_USER=user --env MYSQL_PASSWORD=user -p 3306:3306 -d mysql/mysql-server:8.0
